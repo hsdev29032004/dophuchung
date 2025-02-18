@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="section2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        details {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 1em;
+            padding-bottom: 1em;
+        }
+
+        summary {
+            list-style: none;
+            cursor: pointer;
+            position: relative;
+            font-weight: 600;
+            margin: 0;
+            padding: 0.5em 0;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary::after {
+            content: '+';
+            position: absolute;
+            right: 0;
+            font-size: 1.2em;
+        }
+
+        details[open] summary::after {
+            content: '-';
+        }
+
+        details p {
+            margin: 0.5em 0 0 0;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <section>
+        <div class="container">
+            <div class="left-column">
+                <h6>CONSTRUCTION</h6>
+                <h1 class="page-title">The perfect accent chair for any room</h1>
+    
+                <div style="margin-top: 30px;">
+                    <details open>
+                        <summary>Cushion</summary>
+                        <p>
+                            The Thayer's seat cushion features a core of high-resiliency foam
+                            wrapped with a layer of microfiber for a structured, supportive sit.
+                        </p>
+                    </details>
+        
+                    <details>
+                        <summary>Upholstery</summary>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quisquam laboriosam dolorem, nemo corporis quos dolore praesentium perspiciatis id adipisci explicabo commodi, quam veniam aliquam repudiandae odit nobis. Corrupti, commodi!
+                        </p>
+                    </details>
+        
+                    <details>
+                        <summary>Frame</summary>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, autem id? Soluta, culpa. Tempore corrupti blanditiis nulla odit culpa, consectetur quas sapiente cumque praesentium quos, recusandae provident vitae, eos impedit.
+                        </p>
+                    </details>
+        
+                    <details>
+                        <summary>Finish</summary>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque delectus voluptas exercitationem a deserunt, possimus distinctio sint magni, laudantium pariatur, cum impedit sed voluptates dignissimos qui itaque culpa amet cumque!
+                        </p>
+                    </details>
+                </div>
+            </div>
+    
+            <div class="right-column" style="display: flex;">
+                <div style="aspect-ratio: 1/1; width: 500px; height: 500px; overflow: hidden;">
+                    <img src="img/twochair.jpg" alt="Chair 1" class="fullsize"/>
+                </div>
+                <div style="aspect-ratio: 1/1; width: 300px; height: 300px; overflow: hidden;">
+                    <img src="img/onechair.jpg" alt="Chair 2" class="fullsize"/>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
