@@ -23,14 +23,15 @@ p {
 }
 
 h6,
-p,
-summary {
+p {
     font-family: "Lato", "Optima", sans-serif;
     color: #7a6c65;
+    margin-bottom: 10px;
 }
 
-h6{
-    margin-bottom: 10px;
+summary{
+    font-family: "Lato", "Optima", sans-serif;
+    font-weight: normal;
 }
 
 .fullsize{
